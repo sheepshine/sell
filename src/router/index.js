@@ -12,6 +12,7 @@ export default new Router({
         { path: '/goods', component: Goods },
         { path: '/seller', component: Seller },
         { path: '/ratings', component: Ratings }
-    ]
+    ],
+    linkActiveClass: 'active'
 })
 
